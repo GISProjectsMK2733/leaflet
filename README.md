@@ -1,2 +1,1 @@
-# leaflet
-React Leaflet Demo
+React Leaflet JS Choropleth Map Demo App
