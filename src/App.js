@@ -131,7 +131,7 @@ function onEachFeature(feature, layer) {
 function App() {
 
   return (
-    <MapContainer center={[37.8, -96]} zoom={4} scrollWheelZoom={false} style={{ height: "600px", marginTop: "40px", marginBottom: "40px" }}>
+    <MapContainer center={[37.8, -96]} zoom={4} scrollWheelZoom={true} style={{ height: "600px", marginTop: "40px", marginBottom: "40px" }} zoomAnimation={true}>
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
